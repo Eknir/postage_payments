@@ -6,7 +6,7 @@ import "./PostOffice.sol";
 import "@openzeppelin/contracts/cryptography/MerkleProof.sol";
 // StoragePayments pays out the money paid to the PostOffice to the nodes who earned this. 
 // A node can go offline and be reasonable sure to get his money, which is safeguarded by incentivizing refutation of frivolous challenges
-contract StoragePayments {
+contract ACE {
     
     // TODO. price, being the sum of two child nodes must be included in the parent node. That way, we can efficiently challenge the Price of the root node
     // TODO: what if batch doesn't have any funds anymore?
