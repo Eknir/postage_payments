@@ -1,0 +1,25 @@
+{
+  "name": "postage_payments",
+  "version": "0.0.1",
+  "description": "Smart-contracts needed for Swarm's RACE",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eknir/postage_payments.git"
+  },
+  "author": "eknir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eknir/postage_payments/issues"
+  },
+  "homepage": "https://github.com/Eknir/postage_payments#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.0.0-beta.0"
+  }
+}
