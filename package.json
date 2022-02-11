@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/Eknir/postage_payments#readme",
   "dependencies": {
-    "@openzeppelin/contracts": "^3.0.0-beta.0"
+    "@openzeppelin/contracts": "^4.4.2"
   }
 }
